@@ -1,0 +1,454 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+    font-family: 'Jost-Medium';
+    src: url("../Jost/Jost-VariableFont_wght.ttf");
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: 'Jost-Medium';
+    padding: 0;
+    margin: 0;
+}
+nav{
+    .phone-nav{display: block;
+        margin-bottom: 25%;
+        display: flex;
+        h1{
+            left: 20px;
+            position: absolute;
+            top: 40px;
+            font-size: x-large;
+            font-weight: 800;
+            color: blue;
+        }
+        .hamburger{
+            width: 4rem;
+            height: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            align-items: center;
+            border: 4px blue solid;
+            .line{
+                background-color: blue;
+                height: 4px;
+                width: 80%;
+            }
+        }
+    }
+    .pc-nav{
+        display: none;
+    }
+    .container{
+        h2{
+            font-size: x-large;
+            font-weight: 800;
+            text-decoration: underline;
+        }
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-content: space-between;
+        color: blue;
+        .link{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            .signup{
+                width: 5rem;
+                height: 2rem;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                border: none;
+                border-radius: 20px;
+                padding: 5px;
+            }
+            .signin{
+                width: 5rem;
+                height: 2rem;
+                color: blue;
+                background-color: white;
+                border: 2px blue solid;
+                font-weight: bold;
+                border-radius: 20px;
+                padding: 5px;
+            }
+            a{
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.first-section{
+    margin-top: 8%;
+    margin-bottom: 4%;
+    .nashy{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .range{
+            width: 40%;
+            background-color: blue;
+        }
+        .email{
+            height: 3rem;
+            width: 60%;
+            background-color: white;
+            border-radius: 50px;
+            padding: 2%;
+            border: 2px blue solid;
+        }
+        .circles{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .five{
+                height: 3rem;
+                width: 3rem;
+                border-radius: 50%;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-size: 15px;
+                align-items: center;
+                font-weight: bold;
+                img{
+                    height: 3rem;
+                    width: 3rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    h1{
+        font-size: 35px;
+        line-height: 35px;
+        font-weight: bold;
+        color: black;
+        width: 60%;
+    }
+    .circle{
+        height: 90%;
+        width: 90%;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 255, 0.208);
+        display: flex;
+        justify-content: center;
+        box-shadow: 2px 3px 10px blue;
+        img{
+            height: 24rem;
+            width: 20rem;
+
+        }
+    }
+}
+.offers{
+    margin-bottom: 5%;
+    h3{
+        font-size: x-large;
+        font-weight: 800;
+        margin-bottom: 2%;
+    }
+    .card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.208);
+}
+}
+
+.our-students{
+ h3{
+        font-size: x-large;
+        font-weight: 800;
+        margin-bottom: 2%;
+    }
+    .card{
+        padding: 30px;
+        margin-top: 3%;
+        background-color: rgba(0, 0, 255, 0.208);
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+        }
+        .images{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+}
+.third-section{
+    .card2{
+        width: 100%;
+        background-color: white;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        .circle{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 12px;
+            background-color: blue;
+            border: 3px red solid;
+            font-weight: bold;
+        }
+    }
+    .text{
+        h1{
+            font-size: 15px;
+            font-weight: bold;
+            color: blue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            height: 2rem;
+            width: 6rem;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+    }
+    .wadii{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        img{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+        }
+        .pong{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+.handle{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    button{
+        height: 2.5rem;
+        width: 9rem;
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        border: none;
+    }
+}
+.fair{
+    text-align: center;
+    button{
+        height: 2.5rem;
+        width: 9rem;
+        color: blue;
+        background-color: white;
+        border: 2px blue solid;
+        border-radius: 20px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: bold;
+        color: blue;
+    }
+    .madiro{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        text-align: center;
+        align-items: center;
+        border: none;
+        box-shadow: 3px 3px 10px blue;
+        height: 23rem;
+    }
+    .madiro:hover{
+        transition: all ease-in .60s;
+        scale: 1.05;
+    }
+    .love{
+        margin-top: 4%;
+        background-color: blue;
+        font-weight: bolder;
+        color: white;
+        width: 12rem;
+    }
+}
+
+.footer{
+    padding: 30px;
+    margin-top: 3%;
+    h3{
+        color: blue;
+        text-decoration: underline;
+        margin-bottom: 8%;
+    }
+    .hello{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h4{
+            font-size: 20px;
+            font-weight: 900;
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+    #message{
+        padding: 20px;
+        border: 2px blue solid;
+        border-radius: 8px;
+    }
+    button{
+        height: 2.5rem;
+        width: 6rem;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+    img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .firstpic{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 4%;
+    }
+}
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+nav{
+.phone-nav{
+display: none;
+}
+.pc-nav{
+    display: block;
+}
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
