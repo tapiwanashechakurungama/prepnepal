@@ -116,6 +116,14 @@ nav{
                 border-radius: 20px;
                 padding: 5px;
             }
+            .signup:hover{
+                border: 1px blue solid;
+                transition: all ease-in-out .60s;
+                color: blue;
+                background-color: white;
+                scale: 1.03;
+                box-shadow: 2px 2px 6px black;
+            }
             .signin{
                 width: 5rem;
                 height: 2rem;
@@ -125,6 +133,13 @@ nav{
                 font-weight: bold;
                 border-radius: 20px;
                 padding: 5px;
+            }
+            .signin:hover{
+                transition: all ease-in-out .60s;
+                color: white;
+                background-color: blue;
+                scale: 1.03;
+                box-shadow: 2px 2px 6px black;
             }
             a{
                 text-decoration: none;
@@ -337,6 +352,12 @@ nav{
         border: none;
         box-shadow: 3px 3px 10px blue;
         height: 23rem;
+        button:hover{
+            transition: all ease-in .60s;
+            background-color: blue;
+            color: white;
+            box-shadow: 2px 3px 8px blue;
+        }
     }
     .madiro:hover{
         transition: all ease-in .60s;
@@ -348,7 +369,13 @@ nav{
         font-weight: bolder;
         color: white;
         width: 12rem;
+        
     }
+    .love:hover{
+            transition: all ease-in-out .60s;
+            scale: 1.05;
+            box-shadow: 2px 3px 8px blue;
+        }
 }
 
 .footer{
