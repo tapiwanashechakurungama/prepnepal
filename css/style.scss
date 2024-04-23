@@ -212,6 +212,11 @@ nav{
         }
     }
 }
+.circle:hover{
+    background-color: blue;
+    transition: all ease-in-out .60s;
+    box-shadow: 3px 3px 10px black;
+}
 .offers{
     margin-bottom: 5%;
     h3{
@@ -413,6 +418,12 @@ nav{
     img{
         width: 3rem;
         height: 3rem;
+    }
+    img:hover{
+        transition: all ease-in .60s;
+        scale: 1.03;
+        box-shadow: 3px 3px 10px blue;
+        border-radius: 50%;
     }
     .firstpic{
         display: flex;

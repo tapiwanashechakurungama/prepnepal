@@ -217,6 +217,12 @@ nav .container .link a {
   width: 20rem;
 }
 
+.circle:hover {
+  background-color: blue;
+  transition: all ease-in-out 0.6s;
+  box-shadow: 3px 3px 10px black;
+}
+
 .offers {
   margin-bottom: 5%;
 }
@@ -415,6 +421,12 @@ nav .container .link a {
 .footer img {
   width: 3rem;
   height: 3rem;
+}
+.footer img:hover {
+  transition: all ease-in 0.6s;
+  scale: 1.03;
+  box-shadow: 3px 3px 10px blue;
+  border-radius: 50%;
 }
 .footer .firstpic {
   display: flex;
