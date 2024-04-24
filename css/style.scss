@@ -187,6 +187,12 @@ nav{
                     width: 3rem;
                     border-radius: 50%;
                 }
+                img:hover{
+                    transition: all ease-in .60s;
+                    scale: 1.02;
+                    rotate: 360deg;
+                    box-shadow: 4px -4px 8px blue;
+                }
             }
         }
     }
