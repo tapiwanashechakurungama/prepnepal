@@ -89,18 +89,20 @@ nav{
     }
     .pc-nav{
         display: none;
+        border-bottom: 3px blue solid;
     }
     .container{
         h2{
             font-size: x-large;
             font-weight: 800;
-            text-decoration: underline;
+            // text-decoration: underline;
         }
         margin-top: 2%;
         display: flex;
         justify-content: center;
         align-content: center;
         justify-content: space-between;
+        padding-bottom: 15px;
         color: blue;
         .link{
             display: flex;

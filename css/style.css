@@ -94,6 +94,7 @@ nav .phone-nav .hamburger .line {
 }
 nav .pc-nav {
   display: none;
+  border-bottom: 3px blue solid;
 }
 nav .container {
   margin-top: 2%;
@@ -101,12 +102,12 @@ nav .container {
   justify-content: center;
   align-content: center;
   justify-content: space-between;
+  padding-bottom: 15px;
   color: blue;
 }
 nav .container h2 {
   font-size: x-large;
   font-weight: 800;
-  text-decoration: underline;
 }
 nav .container .link {
   display: flex;
